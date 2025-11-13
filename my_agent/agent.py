@@ -1,8 +1,3 @@
-# ===============================================================
-#   EDUCATION ANALYTICS AGENT (ADK) — SINGLE PY FILE
-#   Dataset: nijatzeynalov/az-school-graduate-enrollment
-# ===============================================================
-
 import pandas as pd
 from datasets import load_dataset
 from google.adk.agents.llm_agent import Agent
@@ -215,3 +210,4 @@ If unsure, ask follow-up questions.
 )
 
 print("Root Agent loaded successfully.")
+
