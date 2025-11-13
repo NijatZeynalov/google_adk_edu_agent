@@ -14,9 +14,6 @@ df = dataset["train"].to_pandas()
 print("Dataset loaded:", df.shape)
 
 
-# ===============================================================
-# ---------------------- CORE TOOLS ------------------------------
-# ===============================================================
 
 def get_years() -> dict:
     years = sorted(df["year"].dropna().unique().tolist())
@@ -210,4 +207,5 @@ If unsure, ask follow-up questions.
 )
 
 print("Root Agent loaded successfully.")
+
 
